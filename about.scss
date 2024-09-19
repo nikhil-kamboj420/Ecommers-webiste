@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  color: var(--textColor);
+}
+.about_section {
+  border: 2px solid black;
+  background-image: url("./images/About-img.webp");
+  background-size: 100% 100%;
+  height: calc(100vh - 20vh);
+
+  .image-content {
+    border: 2px solid red;
+    height: inherit;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+
+      & > .item {
+        margin: auto;
+        border: 2px solid green;
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+
+      .image-item1 {
+        background-image: url("./images/mariola-grobelska-8a7ZTFKax_I-unsplash.webp");
+        background-size: 100% 100%;
+  }
+}
+
+}
